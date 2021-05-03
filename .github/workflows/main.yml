@@ -18,7 +18,8 @@ jobs:
     - run: npm run production
     - name: Commit built assetsf                                 
       run: |
-        git config --local user.email "mohazkalarif@gmail.com"                                                                git config --local user.name "Azkal181"
+        git config --local user.email "mohazkalarif@gmail.com"                                                                
+        git config --local user.name "Azkal182"
         git checkout -B deploy                                     
         git add -f public/
         git commit -m "Build front-end assets"
